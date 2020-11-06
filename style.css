@@ -7,7 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  background-color: white;
 }
 
 .container {
@@ -30,7 +30,6 @@ body {
 
 .container .content {
   position: absolute;
-  color: #f1f1f1;
   padding: auto;
   font-size: 2rem;
   top: 30%;
@@ -47,13 +46,13 @@ body {
 }
 
 .problem h1 {
-  color: white;
-  border-bottom: 1px solid white;
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 .problem p {
   margin: 20px 0px 0px;
-  color: white;
+  color: black;
   line-height: 1.5;
 }
 
