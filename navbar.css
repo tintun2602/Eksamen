@@ -25,7 +25,7 @@ h4 {
 }
 span {
   position: relative;
-  top: 2px;
+  top: 3px;
 }
 
 #space {
@@ -153,7 +153,7 @@ strong {
 }
 
 /*------------------------------------------------------------------------------------------*/
-@media (min-width: 1215px) {
+@media (min-width: 1155px) {
   .header {
     border-bottom: 3px solid black;
   }
@@ -166,20 +166,17 @@ strong {
   }
   .header li a {
     margin: 14px 1px;
+    height: 50px;
     padding: 6px 23px;
     padding-top: 11px;
-    color: white;
-    background-color: #2e5cb8;
+    color: black;
+    background-color:black;
     border: 1px solid black;
     font-size: 19px;
     text-shadow: none;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1.5;
-  }
-  .header li a:hover,
-  .header .menu-btn:hover {
-    background-color: #4775d1;
   }
   .header .menu {
     clear: none;
