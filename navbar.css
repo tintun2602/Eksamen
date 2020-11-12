@@ -176,14 +176,24 @@ strong {
   }
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
   }
-  
-  #btn1:hover {background: linear-gradient(to right, #00ff80 0%, #00cc66 100%);}
-  #btn2:hover {background: linear-gradient(to right,#00ffbf 0%, #00cc99 100%);}
-  #btn3:hover {background: linear-gradient(to right, #1ac6ff 0%, #00ace6 100%);}
-  #btn4:hover {background: linear-gradient(to right, #4d94ff 0%, #3385ff 100%);}
-  #btn5:hover {background: linear-gradient(to right, #b84dff 0%, #ad33ff 100%);}
+
+  #btn1:hover {
+    background: linear-gradient(to right, #00ff80 0%, #00cc66 100%);
+  }
+  #btn2:hover {
+    background: linear-gradient(to right, #00ffbf 0%, #00cc99 100%);
+  }
+  #btn3:hover {
+    background: linear-gradient(to right, #1ac6ff 0%, #00ace6 100%);
+  }
+  #btn4:hover {
+    background: linear-gradient(to right, #4d94ff 0%, #3385ff 100%);
+  }
+  #btn5:hover {
+    background: linear-gradient(to right, #b84dff 0%, #ad33ff 100%);
+  }
 
   .header .menu {
     clear: none;
