@@ -68,12 +68,6 @@ span {
   text-align: center;
   letter-spacing: 1.5;
 }
-#btn1 {background-color: white;}
-#btn2 {background-color: white;}
-#btn3 {background-color: white;}
-#btn4 {background-color: white;}
-#btn5 {background-color: white;}
-
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #3366cc;
