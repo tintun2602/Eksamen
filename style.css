@@ -134,6 +134,14 @@ body {
 .footer1 {
   display: flex;
   background-color: black;
+  color: white;
   height: 200px;
   width: 100%;
+}
+
+.footer1 h1 {
+  margin-left: 75px;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
 }
