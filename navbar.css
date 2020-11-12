@@ -53,7 +53,6 @@ span {
   position: relative;
   top: 0px;
   border-top: 1px solid black;
-  opacity: 0.9;
 }
 .header li a {
   display: block;
@@ -67,10 +66,12 @@ span {
   font-size: 24px;
   text-align: center;
   letter-spacing: 1.5;
+  opacity: 0.9;
 }
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #3366cc;
+  background-color: whitesmoke;
+  opacity: 1;
 }
 .header .logo {
   display: block;
@@ -147,7 +148,7 @@ strong {
 }
 
 /*------------------------------------------------------------------------------------------*/
-@media (min-width: 1155px) {
+@media (min-width: 1180px) {
   .header {
     border-bottom: 3px solid black;
   }
@@ -164,13 +165,17 @@ strong {
     padding: 6px 23px;
     padding-top: 11px;
     color: black;
-    background-color:black;
+    background-color: white;
     border: 1px solid black;
-    font-size: 19px;
+    font-size: 20px;
     text-shadow: none;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1.5;
+  }
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #F8F8F8;
   }
   .header .menu {
     clear: none;
