@@ -68,7 +68,7 @@ body {
   flex-basis: 50%;
   object-fit: cover;
   max-width: 50%;
-  height: 100%;
+  height: auto;
   background-position: center center;
   padding: 10px 0px 0px 0px;
 }
@@ -85,17 +85,21 @@ body {
 
 /*------------------------- Link 2 ---------------------------------------*/
 
+.link2content2 {
+  display: flex;
+  width: 100%;
+  max-height: 50%;
+  padding: 0px 80px 0px 80px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.link2img2 {
+  flex-basis: 50%;
+  object-fit: cover;
+  max-width: 50%;
+  height: auto;
+  background-position: center center;
+  padding: 10px 0px 0px 0px;
+}
 
 /*------------------------- Link 3 ---------------------------------------*/
 
@@ -104,21 +108,8 @@ body {
   max-width: 50%;
   height: 600px;
   padding: 10px 0px 0px 0px;
-  
-  }
+}
 
 /*------------------------- Link 4 ---------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*------------------------- Link 5 ---------------------------------------*/
