@@ -68,7 +68,7 @@ body {
   flex-basis: 50%;
   object-fit: cover;
   max-width: 50%;
-  height: auto;
+  height: 100%;
   background-position: center center;
   padding: 10px 0px 0px 0px;
 }
