@@ -73,6 +73,7 @@ span {
   background-color: whitesmoke;
   opacity: 1;
 }
+
 .header .logo {
   display: block;
   float: left;
@@ -177,6 +178,13 @@ strong {
   .header .menu-btn:hover {
     background-color: #F8F8F8;
   }
+  
+  #btn1:hover {background: linear-gradient(to right, #ff4d4d 0%, #ff3333 100%);}
+  #btn2:hover {background: linear-gradient(to right, #ffa366 0%, #ff8533 100%);}
+  #btn3:hover {background: linear-gradient(to right, #00ff80 0%, #00cc66 100%);}
+  #btn4:hover {background: linear-gradient(to right, #33ccff 0%, #0099cc 100%);}
+  #btn5:hover {background: linear-gradient(to right, #b84dff 0%, #ad33ff 100%);}
+
   .header .menu {
     clear: none;
     float: right;
