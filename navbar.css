@@ -73,8 +73,8 @@ span {
   display: block;
   float: left;
   font-size: 33px;
-  font-family: Tahoma, Geneva, sans-serif;
-  letter-spacing: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 8px;
   padding: 20px 45px;
   text-decoration: none;
   text-shadow: none;
@@ -144,7 +144,7 @@ strong {
 }
 
 /*------------------------------------------------------------------------------------------*/
-@media (min-width: 1180px) {
+@media (min-width: 1190px) {
   .header {
     border-bottom: 3px solid black;
   }
@@ -181,13 +181,13 @@ strong {
     background: linear-gradient(to right, #00ffbf 0%, #00cc99 100%);
   }
   #btn3:hover {
-    background: linear-gradient(to right, #1ac6ff 0%, #00ace6 100%);
+    background: linear-gradient(to right, #1ac6ff 0%, #0099cc 100%);
   }
   #btn4:hover {
-    background: linear-gradient(to right, #4d94ff 0%, #3385ff 100%);
+    background: linear-gradient(to right, #4d94ff 0%, #005ce6 100%);
   }
   #btn5:hover {
-    background: linear-gradient(to right, #b84dff 0%, #ad33ff 100%);
+    background: linear-gradient(to right, #b84dff 0%, #8a00e6 100%);
   }
 
   .header .menu {
@@ -201,7 +201,7 @@ strong {
   .header .logo {
     color: black;
     font-size: 39px;
-    padding: 14px 60px;
+    padding: 16px 45px;
   }
 
   #space {
