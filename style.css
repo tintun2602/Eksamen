@@ -8,6 +8,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: white;
+  overflow-x: hidden;
 }
 .header {
   z-index: 999;
@@ -28,12 +29,13 @@ body {
   position: absolute;
   left: 0;
   top: 0;
+  border-bottom: 4px solid black;
 }
 
 .container .content {
   position: absolute;
   color: white;
-  font-size: 2rem;
+  font-size: 1.9rem;
   text-shadow: 2px 2px black;
   top: 30%;
   left: 15%;
@@ -86,6 +88,7 @@ body {
   width: 20%;
 }
 
+
 /*------------------------- Link 2 ---------------------------------------*/
 
 .link2content2 {
@@ -114,6 +117,7 @@ body {
   width: 20%;
 }
 
+
 /*------------------------- Link 3 ---------------------------------------*/
 
 .link3img1 {
@@ -127,7 +131,42 @@ body {
   margin: 75px;
 }
 
+
 /*------------------------- Link 4 ---------------------------------------*/
+.bgimg1 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-bottom: 4px solid black;
+  filter: blur(1px);
+  transform: scale(1.1); 
+}
+.maintitle {
+  position: relative;
+  background-color: darkgrey; /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+  width: 450px;
+  color: white;
+  border: 3px solid lightgrey;
+  text-align: center;
+  z-index: 2;
+  padding: 10px 0px;
+}
+#test1 {display:block;}
+#test2 {display:none;}
+
+.text-box {
+  position: relative;
+  margin: 75px 0px;
+  width: 70%;
+  text-align: left;
+}
+.text-box h1 {color:black; border-bottom:1px solid black; text-align:center;}
+.text-box p {margin:20px 0px 0px; color:black; line-height:1.8; margin-top:9px;}
+
 
 /*------------------------- Link 5 ---------------------------------------*/
 
@@ -167,4 +206,33 @@ footer a {
   color: white;
   transform: translateX(-50%);
   margin-bottom: auto;
+}
+
+/*---------------RESPONSIVE---------------*/
+@media only screen and (max-width:640px) {
+  .container .content {
+    text-align: center;
+  }
+  .maintitle {
+    position: relative;
+    top: 110px;
+    width: 340px;
+    color: white;
+    border: 3px solid lightgrey;
+    text-align: center;
+    z-index: 2;
+    padding: 10px 20px;
+    font-size: 2.3rem;
+  }
+  #test1 {display:none;}
+  #test2 {display:block;}
+
+  .text-box {
+    margin: 110px 0px;
+    width: 70%;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .text-box h1 {text-align: left;}
+  .text-box p {line-height: 1.8;}
 }
