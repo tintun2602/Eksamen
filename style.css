@@ -9,7 +9,9 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: white;
 }
-
+.header {
+  z-index: 999;
+}
 .container {
   position: relative;
   text-align: center;
@@ -30,12 +32,12 @@ body {
 
 .container .content {
   position: absolute;
-  padding: auto;
   color: white;
   font-size: 2rem;
   text-shadow: 2px 2px black;
   top: 30%;
   left: 15%;
+  right: 15%;
   text-align: left;
 }
 
@@ -62,7 +64,7 @@ body {
   display: flex;
   width: 100%;
   max-height: 50%;
-  padding: 0px 80px 0px 80px;
+  padding: 0px 80px 80px 80px;
 }
 
 .img2 {
@@ -131,17 +133,38 @@ body {
 
 /*------------------------- Footer ---------------------------------------*/
 
-.footer1 {
-  display: flex;
+footer {
   background-color: black;
   color: white;
-  height: 200px;
+  position: relative;
   width: 100%;
 }
 
-.footer1 h1 {
-  margin-left: 75px;
-  margin-top: 20px;
-  font-size: 2rem;
-  font-family: "Times New Roman", Times, serif;
+footer h1 {
+  padding: 20px 0px 0px 75px;
+  font-family: arial;
+  font-size: 3vh;
+}
+
+footer p {
+  padding: 20px 0px 0px 75px;
+  line-height: 1, 5;
+}
+
+footer a {
+  color: white;
+  padding: 20px 0px 0px 75px;
+  font-weight: lighter;
+  line-height: 1, 5;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  color: white;
+  transform: translateX(-50%);
+  margin-bottom: auto;
 }
