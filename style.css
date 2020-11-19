@@ -133,29 +133,22 @@ body {
 
 
 /*------------------------- Link 4 ---------------------------------------*/
-.bgimg1 {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-bottom: 4px solid black;
-  filter: blur(1px);
-  transform: scale(1.1); 
-}
 .maintitle {
   position: relative;
   background-color: darkgrey; /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
-  width: 450px;
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+  width: 430px;
   color: white;
-  border: 3px solid lightgrey;
+  border: 2px solid white;
   text-align: center;
   z-index: 2;
   padding: 10px 0px;
 }
-#test1 {display:block;}
+#test1 {
+  display:block;
+  margin-top: -20px;
+  border: 2px solid black;
+}
 #test2 {display:none;}
 
 .text-box {
@@ -165,8 +158,17 @@ body {
   text-align: left;
 }
 .text-box h1 {color:black; border-bottom:1px solid black; text-align:center;}
-.text-box p {margin:20px 0px 0px; color:black; line-height:1.8; margin-top:9px;}
+.text-box p {color:black; line-height:1.8; margin-top:9px;}
 
+.contentP {
+  display: flex;
+  width: 100%;
+  max-height: 50%;
+  padding: 0px 0px 60px 20px;
+}
+.imgP1 {width:75%; padding-left:25%;}
+.imgP2 {width:75%; padding-left:25%;}
+.imgP3 {width:75%; padding-left:25%;}
 
 /*------------------------- Link 5 ---------------------------------------*/
 
@@ -215,10 +217,10 @@ footer a {
   }
   .maintitle {
     position: relative;
-    top: 110px;
+    top: 100px;
     width: 340px;
     color: white;
-    border: 3px solid lightgrey;
+    border: 3px solid black;
     text-align: center;
     z-index: 2;
     padding: 10px 20px;
@@ -235,4 +237,8 @@ footer a {
   }
   .text-box h1 {text-align: left;}
   .text-box p {line-height: 1.8;}
+  
+  .imgP1 {width:90vw; padding-left:0%; margin-top:-60px;}
+  .imgP2 {width:80vw; padding-left:5%;}
+  .imgP3 {width:90vw; padding-left:0%;}
 }
