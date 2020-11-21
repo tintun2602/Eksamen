@@ -287,8 +287,8 @@ body {
 /*------------------------- Footer ---------------------------------------*/
 
 footer {
-  background-color: lightgrey;
-  color: black;
+  background-color: #303030;
+  color: white;
   position: relative;
   width: 100%;
   height: 30.5vw;
@@ -300,6 +300,7 @@ footer h1 {
   font-size: 3.8vh;
 }
 footer a {
+  color: white;
   font-weight: lighter;
   font-style: italic;
 }
@@ -308,20 +309,19 @@ footer a:active {
 }
 
 #form {
-  background-color: white;
+  background-color: #202020;  
   color: white;
   border: 1px solid black;
-  border-radius: 8px;
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: none;
 }
 .input {
   position: relative;
   height: 40px;
   width: 300px;
   font-size: 16px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 3px;
+  padding: 3px 15px;
+  padding-bottom: 0px;
   margin-bottom: 10px;
 }
 .textarea {
@@ -332,20 +332,15 @@ footer a:active {
   resize: none;
 }
 .submit {
-  height: 50px;
-  width: 240px;
-  background: rgb(41, 157, 219);
-  background-image: -webkit-linear-gradient(top, #2c3d54, #121821);
-  background-image: -moz-linear-gradient(top, #2c3d54, #121821);
-  background-image: -ms-linear-gradient(top, #2c3d54, #121821);
-  background-image: -o-linear-gradient(top, #2c3d54, #121821);
-  background-image: linear-gradient(to bottom, #2c3d54, #121821);
+  height: 40px;
+  width: 301px;
+  background-color: black;
   border: 2px solid white;
-  border-radius: 10px;
   color: white;
   font-size: 18px;
   text-shadow: 1.4px 1.4px black;
 }
+::placeholder {color:white}
 
 .copyright {
   font-size: 0.8rem;
@@ -387,60 +382,55 @@ footer a:active {
     text-align: center;
   }
 
-  /*----------------------------------------------------------------------------------------------------*/
-  /*---------------------------------------------RESPONSIVE---------------------------------------------*/
-  /*----------------------------------------------------------------------------------------------------*/
-  @media only screen and (max-width: 640px) {
-    #align {
-      text-align: center;
-    }
-
-    /* LINK 4 */
-    .maintitle {
-      position: relative;
-      top: 100px;
-      width: 340px;
-      color: white;
-      border: 3px solid black;
-      text-align: center;
-      z-index: 2;
-      padding: 10px 20px;
-      font-size: 2.3rem;
-    }
-    #test1 {
-      display: none;
-    }
-    #test2 {
-      display: block;
-    }
-
-    .text-box {
-      margin: 110px 0px;
-      width: 70%;
-      padding: 0px 0px;
-      text-align: left;
-    }
-    .text-box h1 {
-      text-align: left;
-    }
-    .text-box p {
-      line-height: 1.8;
-    }
-
-    .imgP1 {
-      width: 90vw;
-      padding-left: 0%;
-      margin-top: -60px;
-    }
-    .imgP2 {
-      width: 80vw;
-      padding-left: 5%;
-    }
-    .imgP3 {
-      width: 90vw;
-      padding-left: 0%;
-    }
+  /* LINK 4 */
+  #align {
+    text-align: center;
   }
+  .maintitle {
+    position: relative;
+    top: 100px;
+    width: 340px;
+    color: white;
+    border: 3px solid black;
+    text-align: center;
+    z-index: 2;
+    padding: 10px 20px;
+    font-size: 2.3rem;
+  }
+  #test1 {
+    display: none;
+  }
+  #test2 {
+    display: block;
+  }
+
+  .text-box {
+    margin: 110px 0px;
+    width: 70%;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .text-box h1 {
+    text-align: left;
+  }
+  .text-box p {
+    line-height: 1.8;
+  }
+
+  .imgP1 {
+    width: 90vw;
+    padding-left: 0%;
+    margin-top: -60px;
+  }
+  .imgP2 {
+    width: 80vw;
+    padding-left: 5%;
+  }
+  .imgP3 {
+    width: 90vw;
+    padding-left: 0%;
+  }
+  
   .text-box h1 {
     text-align: left;
   }
