@@ -99,9 +99,9 @@ body {
 }
 
 .img2 {
-  flex-basis: 50%;
+  max-height: 50%;
   object-fit: cover;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   background-position: center center;
   padding: 10px 0px 0px 0px;
@@ -330,13 +330,11 @@ footer a:active {color:blue}
 }
 #rightF {width:36%; float:left; text-align:center;}
 
-<<<<<<< HEAD
 /*---------------RESPONSIVE---------------*/
 @media only screen and (max-width: 640px) {
   .container .content {
     text-align: center;
   }
-=======
 
 /*----------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------RESPONSIVE---------------------------------------------*/
@@ -345,7 +343,6 @@ footer a:active {color:blue}
   #align {text-align: center;}
 
   /* LINK 4 */
->>>>>>> 9d950efcc5ad7e6b38710fc14ec6e19406b148cb
   .maintitle {
     position: relative;
     top: 100px;
