@@ -175,46 +175,93 @@ body {
 /*------------------------- Footer ---------------------------------------*/
 
 footer {
-  background-color: black;
-  color: white;
+  background-color:lightgrey;
+  color: black;
   position: relative;
   width: 100%;
+  height: 30.5vw;
+  padding:2vw 4vw;
+  border-top: 3px solid black;
+  line-height: 2;
 }
+footer h1 {font-size: 3.8vh;} 
+footer a {font-weight:lighter; font-style:italic;}
+footer a:active {color:blue}
 
-footer h1 {
-  padding: 20px 0px 0px 75px;
-  font-family: arial;
-  font-size: 3vh;
+#form {
+	background-color: white;
+	color: white;
+	border: 1px solid black;
+	border-radius: 8px;
+	font-family:Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
-
-footer p {
-  padding: 20px 0px 0px 75px;
-  line-height: 1, 5;
+.input {
+	position: relative;
+	height: 40px;
+	width: 300px;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	margin-bottom: 10px;
 }
-
-footer a {
-  color: white;
-  padding: 20px 0px 0px 75px;
-  font-weight: lighter;
-  line-height: 1, 5;
+.textarea {
+  height: 90px;
+	width: 300px;
+	font-size: 17px;
+	padding: 10px 15px;
+	resize: none;
+}
+.submit {
+	height: 50px;
+	width: 240px;
+	background: rgb(41, 157, 219);
+	background-image: -webkit-linear-gradient(top, #2c3d54, #121821);
+	background-image: -moz-linear-gradient(top, #2c3d54, #121821);
+	background-image: -ms-linear-gradient(top, #2c3d54, #121821);
+	background-image: -o-linear-gradient(top, #2c3d54, #121821);
+	background-image: linear-gradient(to bottom, #2c3d54, #121821);
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	text-shadow: 1.4px 1.4px black;
 }
 
 .copyright {
   font-size: 0.8rem;
-  bottom: 0;
-  left: 50%;
   position: absolute;
+  bottom: 0;
+  left: 0%;
   text-align: center;
   color: white;
-  transform: translateX(-50%);
+  background-color: #202020;
   margin-bottom: auto;
+  width:100%;
+  padding: 20px 0;
+  border-top: 3px solid black;
 }
+#leftF {width:25%; float:left; text-align:left;}
+#midF {
+  position: relative;
+  margin-top: -28px;
+  float: left;
+  width: 39%;  
+  padding: 30px;
+  text-align: center; 
+  border-left: 1px solid black; 
+  border-right: 1px solid black;
+}
+#rightF {width:36%; float:left; text-align:center;}
 
-/*---------------RESPONSIVE---------------*/
+
+/*----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------RESPONSIVE---------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width:640px) {
-  .container .content {
-    text-align: center;
-  }
+  #align {text-align: center;}
+
+  /* LINK 4 */
   .maintitle {
     position: relative;
     top: 100px;
@@ -241,4 +288,12 @@ footer a {
   .imgP1 {width:90vw; padding-left:0%; margin-top:-60px;}
   .imgP2 {width:80vw; padding-left:5%;}
   .imgP3 {width:90vw; padding-left:0%;}
+
+  /* FOOTER */
+  footer {height: 200vw; text-align:center; padding-top:10vw;}
+  footer div div {margin-bottom: 70px;}
+  #midF {border:none;}
+  #leftF, #midF, #rightF {text-align:center;}
+  
+	#sectionF, #leftF, #midF, #rightF {width:100%;}
 }
