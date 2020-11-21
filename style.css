@@ -147,15 +147,51 @@ body {
 
 /*------------------------- Link 3 ---------------------------------------*/
 
-.link3img1 {
-  flex-basis: 50%;
-  max-width: 50%;
-  height: 600px;
-  padding: 10px 0px 0px 0px;
-}
-
 .theconsequences {
   margin: 75px;
+}
+
+.demo {
+  flex-basis: 50%;
+  object-fit: cover;
+  width: 50%;
+  height: 500px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 5);
+  padding: 80px;
+}
+
+.staff-img {
+  border-radius: 50%;
+}
+
+.link3main {
+  display: flex;
+}
+
+.link3img2 {
+  flex-basis: 50%;
+  object-fit: cover;
+  width: 50%;
+  height: 500px;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 5);
+  padding: 80px;
+  border-radius: 50%;
+}
+
+.link3text-div {
+  flex-basis: 50%;
+  height: 500px;
+  color: black;
+  padding: 75px;
+  line-height: 1, 5;
+}
+
+.link3text-div h2 {
+  border-bottom: 1px solid black;
+}
+
+.link3text-div p {
+  margin: 20px 0px 0px;
 }
 
 /*------------------------- Link 4 ---------------------------------------*/
