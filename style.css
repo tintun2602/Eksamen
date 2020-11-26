@@ -233,7 +233,7 @@ body {
   color: black;
   text-align: center;
 }
-.text-box p {
+.text-box div {
   color: black;
   line-height: 2.1;
   margin: 10px 0;
@@ -290,9 +290,9 @@ footer {
   color: white;
   position: relative;
   width: 100%;
-  height: 460px;
+  height: 470px;
   padding: 28px 0vw;
-  border-top: 3px solid black;
+  border-top: 4px solid black;
   line-height: 2.3;
 }
 footer h1 {font-size:4.5vh; margin-top:-15px;}
@@ -305,7 +305,7 @@ footer a:active {color: lightgrey;}
 
 /* Footer Section */
 #leftF {
-  width: 30%;
+  width: 32%;
   float: left;
   text-align: left;
 }
@@ -313,7 +313,7 @@ footer a:active {color: lightgrey;}
   position: relative;
   margin-top: -28px;
   float: left;
-  width: 39%;
+  width: 35%;
   padding: 30px 0px;
   padding-bottom: 300px;
   text-align: center;
@@ -321,7 +321,7 @@ footer a:active {color: lightgrey;}
   border-right: 1px solid black;
 }
 #rightF {
-  width: 30%;
+  width: 32%;
   padding-left: 0.8vw;
   float: left;
   text-align: center;
@@ -330,7 +330,7 @@ footer a:active {color: lightgrey;}
 /* Footer Content: Contact Info */
 #textF {
   position: relative;
-  padding: 0px 60px;
+  padding: 0px 4.5vw;
 }
 
 /* Footer Content: Social Media */
@@ -460,7 +460,7 @@ footer a:active {color: lightgrey;}
   }
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1100px) {
 /*------------FOOTER------------*/
   footer {
     height: 200vw;
