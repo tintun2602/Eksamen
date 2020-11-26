@@ -407,6 +407,16 @@ footer a:active {
   text-align: center;
 }
 
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.socialmedia:hover {
+  cursor: pointer;
+}
 /*---------------RESPONSIVE---------------*/
 @media only screen and (max-width: 640px) {
   .container .content {
@@ -507,11 +517,4 @@ footer a:active {
   #rightF {
     width: 100%;
   }
-}
-
-.socialmedia {
-  display: flex;
-  justify-content: space-around;
-  width: 70%;
-  margin: 0 auto;
 }
