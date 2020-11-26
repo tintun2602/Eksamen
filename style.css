@@ -228,7 +228,7 @@ body {
   position: relative;
   background-color: darkgrey; /* Fallback color */
   background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
-  width: 430px;
+  width: 420px;
   color: white;
   border: 2px solid white;
   text-align: center;
@@ -237,7 +237,7 @@ body {
 }
 #test1 {
   display: block;
-  margin-top: -20px;
+  margin-top: 5px;
   border: 2px solid black;
 }
 #test2 {
@@ -417,7 +417,10 @@ footer a:active {
 .socialmedia:hover {
   cursor: pointer;
 }
+
+
 /*---------------RESPONSIVE---------------*/
+
 @media only screen and (max-width: 640px) {
   .container .content {
     text-align: center;
