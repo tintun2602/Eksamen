@@ -290,7 +290,7 @@ footer {
   color: white;
   position: relative;
   width: 100%;
-  height: 470px;
+  height: 460px;
   padding: 28px 0vw;
   border-top: 3px solid black;
   line-height: 2.3;
@@ -386,7 +386,7 @@ footer a:active {color: lightgrey;}
 
 /* Footer Copyright */
 .copyright {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   position: absolute;
   bottom: 0;
   left: 0%;
@@ -395,7 +395,7 @@ footer a:active {color: lightgrey;}
   background-color: #181818;
   margin-bottom: auto;
   width: 100%;
-  padding: 20px 0;
+  padding: 13px 0;
   border-top: 3px solid black;
 }
 
