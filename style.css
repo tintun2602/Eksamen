@@ -10,6 +10,7 @@ body {
   background-color: white;
   overflow-x: hidden;
 }
+
 .header {
   z-index: 999;
 }
@@ -155,6 +156,7 @@ body {
 }
 
 .box h2 {
+  font-weight: normal;
   padding: 2rem;
   margin: 0 auto;
   text-decoration: underline;
@@ -505,4 +507,11 @@ footer a:active {
   #rightF {
     width: 100%;
   }
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
 }
