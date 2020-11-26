@@ -43,44 +43,20 @@ body {
   right: 15%;
   text-align: left;
 }
-
 .content p {
   font-weight: medium;
 }
 
-.problem {
-  margin: 75px;
-}
-
-.problem h1 {
-  color: black;
-  border-bottom: 1px solid black;
-}
-
-.problem p {
-  margin: 20px 0px 0px;
-  color: black;
-  line-height: 1.5;
-}
 
 .learnmore {
   padding-top: 2rem;
   text-decoration: underline;
 }
+
 /*---------------------- Code inspired from snowballchallenge  ---------------------------------------*/
 .linkmain {
-  display: flex;
+  display: inline-flex;
 }
-
-.linkimg2 {
-  flex-basis: 50%;
-  object-fit: cover;
-  width: 50%;
-  height: 500px;
-  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
-  margin: 80px;
-}
-
 .linktext-div {
   flex-basis: 50%;
   height: 500px;
@@ -88,14 +64,20 @@ body {
   padding: 75px;
   line-height: 1, 5;
 }
-
 .linktext-div h2 {
   border-bottom: 1px solid black;
 }
-
 .linktext-div p {
   margin: 20px 0px 0px;
   line-height: 1.5;
+}
+.linkimg2 {
+  flex-basis: 50%;
+  object-fit: cover;
+  width: 50%;
+  height: 500px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  margin: 80px;
 }
 /*-------------------------------------------------------------*/
 .content2 {
@@ -230,35 +212,35 @@ body {
   background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
   width: 420px;
   color: white;
-  border: 2px solid white;
   text-align: center;
   z-index: 2;
   padding: 10px 0px;
 }
-#test1 {
+#link4title {
   display: block;
   margin-top: 5px;
   border: 2px solid black;
 }
-#test2 {
-  display: none;
-}
+#link4titleR {display: none;}
 
 .text-box {
   position: relative;
-  margin: 75px 0px;
-  width: 70%;
+  margin: 50px 0px;
+  margin-bottom: 60px;
+  width: 75%;
   text-align: left;
 }
 .text-box h1 {
   color: black;
-  border-bottom: 1px solid black;
   text-align: center;
 }
 .text-box p {
   color: black;
-  line-height: 1.8;
-  margin-top: 9px;
+  line-height: 2.1;
+  margin: 10px 0;
+  padding: 8px 11px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .contentP {
@@ -298,23 +280,21 @@ body {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 20px;
   border-bottom: 4px solid black;
 }
 
-.link5container .content {
-  position: absolute;
-  color: white;
-  font-size: 1.9rem;
-  text-shadow: 2px 2px black;
-  top: 30%;
-  left: 15%;
-  right: 15%;
-  text-align: center;
+.link5container .content {font-size: 1.9rem;}
+#link5title {
+  display: block;
+  top: 285px;
+  border: 1px solid white; 
+  width: 60vw;
+  padding: 15px 20px;
 }
+#link5titleR {display: none;}
 
 /*------------------------- Footer ---------------------------------------*/
-
 footer {
   background-color: #303030;
   color: white;
@@ -336,7 +316,6 @@ footer a {
 footer a:active {
   color: blue;
 }
-
 #form {
   background-color: #202020;
   color: white;
@@ -419,17 +398,19 @@ footer a:active {
 }
 
 
-/*---------------RESPONSIVE---------------*/
+/*---------------------------------RESPONSIVE---------------------------------*/
 
 @media only screen and (max-width: 640px) {
+ 
   .container .content {
     text-align: center;
   }
-
-  /* LINK 4 */
   #align {
     text-align: center;
   }
+
+
+  /*------------LINK 4------------*/
   .maintitle {
     position: relative;
     top: 100px;
@@ -441,62 +422,29 @@ footer a:active {
     padding: 10px 20px;
     font-size: 2.3rem;
   }
-  #test1 {
-    display: none;
-  }
-  #test2 {
-    display: block;
-  }
+  /* ikke fiks på hvordan koden ser ut, blir helt confused her */
+  #link4title {display: none;}
+  #link4titleR {display: block;}
 
   .text-box {
-    margin: 110px 0px;
+    margin: 50px 0px;
+    margin-bottom: 45px;
     width: 70%;
     padding: 0px 0px;
     text-align: left;
   }
-  .text-box h1 {
-    text-align: left;
-  }
-  .text-box p {
-    line-height: 1.8;
-  }
+  .text-box h1 {text-align: left;}
+  .text-box p {line-height: 1.8;}
 
-  .imgP1 {
-    width: 90vw;
-    padding-left: 0%;
-    margin-top: -60px;
-  }
-  .imgP2 {
-    width: 80vw;
-    padding-left: 5%;
-  }
-  .imgP3 {
-    width: 90vw;
-    padding-left: 0%;
-  }
+  .imgP1 {width:90vw; padding-left:0%;}
+  .imgP2 {width:80vw; padding-left:5%;}
+  .imgP3 {width:90vw; padding-left:0%;}
 
-  .text-box h1 {
-    text-align: left;
-  }
-  .text-box p {
-    line-height: 1.8;
-  }
+  .text-box h1 {text-align: left;}
+  .text-box p {line-height: 1.8;}
 
-  .imgP1 {
-    width: 90vw;
-    padding-left: 0%;
-    margin-top: -60px;
-  }
-  .imgP2 {
-    width: 80vw;
-    padding-left: 5%;
-  }
-  .imgP3 {
-    width: 90vw;
-    padding-left: 0%;
-  }
 
-  /* FOOTER */
+  /*------------FOOTER------------*/
   footer {
     height: 200vw;
     text-align: center;
@@ -505,19 +453,24 @@ footer a:active {
   footer div div {
     margin-bottom: 70px;
   }
-  #midF {
-    border: none;
-  }
-  #leftF,
-  #midF,
-  #rightF {
-    text-align: center;
-  }
+  #midF {border: none;}
 
-  #sectionF,
-  #leftF,
-  #midF,
-  #rightF {
-    width: 100%;
+  #leftF, #midF, #rightF {text-align: center;}
+
+  #sectionF, #leftF, #midF, #rightF {width: 100%;}
+
+}
+
+@media only screen and (max-width: 955px) {
+  /*------------LINK 5------------*/
+  #link5title {
+    display: none;
+  }
+  #link5titleR {
+    top: 285px;
+    display: block; 
+    border: 2px solid white; 
+    width: 380px;
+    font-size: 2.3rem;
   }
 }

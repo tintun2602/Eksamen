@@ -144,13 +144,13 @@ strong {
 }
 
 /*------------------------------------------------------------------------------------------*/
-@media (min-width: 1190px) {
+@media (min-width: 1120px) {
   .header {
     border-bottom: 3px solid black;
   }
   .header li {
     float: left;
-    margin-right: 13px;
+    margin-right: 15px;
   }
   .header ul {
     border-top: none;
@@ -169,26 +169,17 @@ strong {
     text-transform: uppercase;
     letter-spacing: 1.5;
   }
-  .header li a:hover,
-  .header .menu-btn:hover {
-    background-color: #f8f8f8;
-  }
 
-  #btn1:hover {
-    background: linear-gradient(to right, #00ff80 0%, #00cc66 100%);
-  }
-  #btn2:hover {
-    background: linear-gradient(to right, #00ffbf 0%, #00cc99 100%);
-  }
-  #btn3:hover {
-    background: linear-gradient(to right, #1ac6ff 0%, #0099cc 100%);
-  }
-  #btn4:hover {
-    background: linear-gradient(to right, #4d94ff 0%, #005ce6 100%);
-  }
-  #btn5:hover {
-    background: linear-gradient(to right, #b84dff 0%, #8a00e6 100%);
-  }
+  #btn1 {background-color: #F5F5F5;}
+  #btn2 {background-color: #DCDCDC;}
+  #btn3 {background-color: #C8C8C8;}
+  #btn4 {background-color: #B0B0B0;}
+  #btn5 {background-color: #989898;}
+  #btn1:hover {background-color: #E0E0E0;}
+  #btn2:hover {background-color: #D0D0D0;}
+  #btn3:hover {background-color: #B8B8B8;}
+  #btn4:hover {background-color: #A0A0A0;}
+  #btn5:hover {background-color: #808080;}
 
   .header .menu {
     clear: none;
