@@ -61,7 +61,7 @@ body {
   color: black;
   line-height: 1.5;
 }
-
+/*---------------------- Code inspired from snowballchallenge  ---------------------------------------*/
 .linkmain {
   display: flex;
 }
@@ -71,8 +71,8 @@ body {
   object-fit: cover;
   width: 50%;
   height: 500px;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 5);
-  padding: 80px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  margin: 80px;
 }
 
 .linktext-div {
@@ -89,8 +89,9 @@ body {
 
 .linktext-div p {
   margin: 20px 0px 0px;
+  line-height: 1.5;
 }
-
+/*-------------------------------------------------------------*/
 .content2 {
   display: flex;
   width: 100%;
@@ -102,9 +103,10 @@ body {
   max-height: 100%;
   object-fit: cover;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   background-position: center center;
   padding: 10px 0px 0px 0px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
 }
 
 .image {
@@ -163,6 +165,7 @@ body {
 .staff-img {
   border-radius: 50%;
 }
+/*---------------------- Code inspired from snowballchallenge  ---------------------------------------*/
 
 .link3main {
   display: flex;
@@ -175,7 +178,7 @@ body {
   object-fit: cover;
   max-width: 500px;
   max-height: 500px;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 5);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 1);
   padding: 80px;
   border-radius: 50%;
 }
