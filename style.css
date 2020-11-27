@@ -229,10 +229,8 @@ body {
   width: 75%;
   text-align: left;
 }
-.text-box h1 {
-  color: black;
-  text-align: center;
-}
+.text-box h1 {color:black; text-align:center;}
+
 .text-box div {
   color: black;
   line-height: 2.1;
@@ -348,6 +346,7 @@ footer a:active {color: lightgrey;}
 
 /* Footer Content: Contact Us */
 #form {
+  width: 300px;
   background-color: #202020;
   color: white;
   border: 1px solid black;
@@ -356,7 +355,6 @@ footer a:active {color: lightgrey;}
 .input {
   position: relative;
   height: 45px;
-  width: 300px;
   font-size: 17px;
   padding: 0px 18px;
   padding-bottom: 0px;
@@ -365,7 +363,6 @@ footer a:active {color: lightgrey;}
 }
 .textarea {
   height: 100px;
-  width: 300px;
   font-size: 17px;
   padding: 10px 18px;
   margin-bottom: -1px;
@@ -374,7 +371,6 @@ footer a:active {color: lightgrey;}
 }
 .submit {
   height: 50px;
-  width: 300px;
   background-color: black;
   border: 2px solid white;
   color: white;
@@ -410,12 +406,19 @@ footer a:active {color: lightgrey;}
   #align {
     text-align: center;
   }
+  .text-box {
+    margin: 50px 0px;
+    margin-bottom: 55px;
+    width: 86%;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .text-box p {line-height: 1.8;}
 
 
   /*------------LINK 4------------*/
   .maintitle {
     position: relative;
-    top: 100px;
     width: 340px;
     color: white;
     border: 3px solid black;
@@ -428,25 +431,12 @@ footer a:active {color: lightgrey;}
   #link4title {display: none;}
   #link4titleR {display: block;}
 
-  .text-box {
-    margin: 50px 0px;
-    margin-bottom: 45px;
-    width: 70%;
-    padding: 0px 0px;
-    text-align: left;
-  }
-  .text-box h1 {text-align: left;}
-  .text-box p {line-height: 1.8;}
-
-  .imgP1 {width:90vw; padding-left:0%;}
+  .imgP1 {width:90vw; padding-left:0%; margin-top:20px;}
   .imgP2 {width:80vw; padding-left:5%;}
-  .imgP3 {width:90vw; padding-left:0%;}
-
-  .text-box h1 {text-align: left;}
-  .text-box p {line-height: 1.8;}
+  .imgP3 {width:90vw; padding-left:0%; margin-bottom:-210px;}
 }
 
-@media only screen and (max-width: 955px) {
+@media only screen and (max-width: 1005px) {
   /*------------LINK 5------------*/
   #link5title {
     display: none;
@@ -455,23 +445,37 @@ footer a:active {color: lightgrey;}
     top: 285px;
     display: block; 
     border: 2px solid white; 
-    width: 380px;
-    font-size: 2.3rem;
+    width: 76vw;
+    font-size: 2.2rem;
   }
+  #minimize {font-size: 30px;}
 }
 
 @media only screen and (max-width: 1100px) {
 /*------------FOOTER------------*/
   footer {
-    height: 200vw;
+    top: 200px;
+    height: 1310px;
     text-align: center;
     padding-top: 10vw;
+    line-height: 2;
   }
-  footer div div {
-    margin-bottom: 70px;
+  #form {width:350px;}
+  .submit {
+    margin-bottom: 60px;
   }
+  .copyright {
+    position: absolute;
+    bottom: 0%;
+  }
+  #textF {margin-bottom:55px;}
+  #rightF h1 {margin-top:10px; padding-bottom:10px}
   #midF {border: none;}
 
-  #leftF, #midF, #rightF {text-align: center;}
+  #leftF, #midF, #rightF {
+    text-align: center; 
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+  }
   #sectionF, #leftF, #midF, #rightF {width: 100%;}
 }  
