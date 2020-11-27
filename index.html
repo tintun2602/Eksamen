@@ -14,8 +14,8 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
+    <title>Re-Sort</title>
 
-    <title>Re-sort</title>
   </head>
   <body>
     <header class="header">
@@ -25,28 +25,18 @@
         ><span class="nav-icon"></span
       ></label>
       <ul class="menu">
-        <li>
-          <a href="./index.html" id="btn1"><span>Home</span></a>
-        </li>
-        <li>
-          <a href="./link2.html" id="btn2"><span>Facts</span></a>
-        </li>
-        <li>
-          <a href="./link3.html" id="btn3"><span>Problem</span></a>
-        </li>
-        <li>
-          <a href="./link4.html" id="btn4"><span>Solution</span></a>
-        </li>
-        <li>
-          <a href="./link5.html" id="btn5"><span>Function</span></a>
-        </li>
+        <li><a href="./index.html" id="btn1"><span>Home</span></a></li>
+        <li><a href="./link2.html" id="btn2"><span>Facts</span></a></li>
+        <li><a href="./link3.html" id="btn3"><span>Problem</span></a></li>
+        <li><a href="./link4.html" id="btn4"><span>Solution</span></a></li>
+        <li><a href="./link5.html" id="btn5"><span>Function</span></a></li>
         <li><a id="space"></a></li>
       </ul>
     </header>
 
     <div class="container">
       <img
-        class="img1"
+        class="img1" style="top:15px;"
         src="https://images.unsplash.com/photo-1528190336454-13cd56b45b5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         alt="there should be an image here"
       />
@@ -56,19 +46,23 @@
         <p>Reimagine. Rethink. Resource. Re-Sort.</p>
       </div>
     </div>
-    <div class="problem">
-      <h1>Problem</h1>
-      <p>
+
+    <center><div class="text-box" style="width:70%">
+      <h1 >The Problem</h1>
+      <div>
         Recycling might seem like a boring problem, don’t it? Our garbage might
         not seem like gold. At least not in first sight. What’s important to
-        realise is that many of the things we throw away on a daily basis still
+        realize, is that a lot of the things we throw away on our daily basis still
         have enormous value in terms of their resources. Things can be used and
         reused multiple times. Whether it be cotton, plastic or metals. The EPA
         estimates that 75% of all waste is recyclable, but in the US only 30 %
         of that is actually recycled. We in RESET want to do something about
-        this problem. Join us in this adventure!
-      </p>
-    </div>
+        this problem. 
+        <p>
+        <center><b>Join us in our adventure!</b></center>
+      </div>
+      <h2></h2>
+    </div></center>
 
     <div class="linkmain">
       <div class="linktext-div">
@@ -85,11 +79,9 @@
           reducing: energy usage, air pollution and water poluttion.
         </p>
 
-        <div class="learnmore">
-          <a href="link3.html">Learn More</a>
-        </div>
+        <div class="learnmore"><a href="link3.html">Learn More</a></div>
       </div>
-
+      
       <div class="image-big">
         <img
           class="linkimg2"
@@ -106,7 +98,7 @@
         <p class="link1text">
           Recycling might seem like a boring problem, don’t it? Our garbage
           might not seem like gold. At least not in first sight. What’s
-          important to realise is that many of the things we throw away on a
+          important to realize, is that many of the things we throw away on a
           daily basis still have enormous value in terms of their resources.
           Things can be used and reused multiple times. Whether it be cotton,
           plastic or metals. The EPA estimates that 75% of all waste is
@@ -132,14 +124,21 @@
     <footer>
       <div id="sectionF">
         <div id="leftF">
-          <h1>Contact information</h1>
-          <p style="letter-spacing: 3px">RE-SORT AS</p>
-          Org.Nr 666 356 106
-          <br />E-mail:
-          <a href="mailto:support@reset.com">support@reset.com</a>
-          <br />Telephone: <a href="tel:+47 123 45 678">+47 693 35 100</a>
-          <br />Address: ?
+          <div id="textF">
+            <h1>Contact information</h1>
+            <div style="line-height:2;">
+            <p style="letter-spacing: 3px">RE-SORT AS</p>
+            Org.Nr 666 356 106
+            <br />E-mail: <a href="mailto:support@reset.com">support@reset.com</a>
+            <br />Telephone: <a href="tel:+47 123 45 678">+47 693 35 100</a>
+            <br />Address: ?
+            <p><br></p>
+            </div>
+            <h2 style="line-height:1.3; font-size:22px;">Settings:</h2>
+            <a href="link1-NO.html"><i style="font-style:normal;">Change language to</i> <b>Norwegian</b></a>
+            </div>
         </div>
+        
         <div id="midF">
           <h1>Social media</h1>
           <div class="socialmedia">
@@ -173,18 +172,18 @@
 
         <div id="rightF">
           <h1>Contact Us</h1>
-          <input type="text" id="form" class="input" placeholder="Name" />
+          <input type="text" id="form" class="input" placeholder="Name" style="margin-top:3px;" />
           <br />
           <input type="text" id="form" class="input" placeholder="E-mail" />
           <br />
           <textarea placeholder="Message" id="form" class="textarea"></textarea>
           <br />
-          <input type="submit" id="form" class="submit" />
+          <button class="submit" id="form">Send inn din melding!</button>
         </div>
       </div>
 
       <div class="copyright">
-        <h3>2020 &copy; Reset AS</h3>
+        <h3>2020 &copy; <b style="letter-spacing: 2px;">RE-SORT AS</b></h3>
       </div>
     </footer>
   </body>
