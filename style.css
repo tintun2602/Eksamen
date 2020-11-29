@@ -45,7 +45,7 @@ body {
 
 #link1title {
   display: block;
-  top: 60px;
+  top: 70px;
   border: 2px solid black; 
   width: 60vw;
   padding: 15px 20px;
@@ -53,7 +53,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #link1subtitle {
-  top: 55px;
+  top: 65px;
   padding: 10px 40px;
   border: 2px solid black;
   font-size: 24px;
