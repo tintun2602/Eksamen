@@ -42,9 +42,24 @@ body {
   right: 15%;
   text-align: left;
 }
-.content p {
-  font-weight: medium;
+
+#link1title {
+  display: block;
+  top: 60px;
+  border: 2px solid black; 
+  width: 60vw;
+  padding: 15px 20px;
+  letter-spacing: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+#link1subtitle {
+  top: 55px;
+  padding: 10px 40px;
+  border: 2px solid black;
+  font-size: 24px;
+}
+#link1titleR, #link1subtitleR {display: none;}
+em {margin:0px 10px;}
 
 .text-box {
   position: relative;
@@ -69,7 +84,7 @@ body {
   text-decoration: underline;
 }
 
-/*---------------------- Code inspired from snowballchallenge  ---------------------------------------*/
+/*--Code inspired from snowballchallenge--*/
 .linkmain {
   display: inline-flex;
 }
@@ -140,24 +155,22 @@ body {
 }
 
 /*------------------------- Link 3 ---------------------------------------*/
-
-.theconsequences {
-  margin: 75px;
+#link3title {
+  display: block;
+  top: 55px;
+  border: 1px solid white; 
+  width: 60vw;
+  padding: 15px 20px;
 }
-
-.demo {
-  flex-basis: 50%;
-  object-fit: cover;
-  width: 50%;
-  height: 500px;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 5);
-  padding: 80px;
+#link3subtitle {
+  top: 50px;
+  padding: 10px 30px;
+  border: 1px solid white; 
+  font-size: 24px;
 }
+#link3titleR, #link3subtitleR {display: none;}
 
-.staff-img {
-  border-radius: 50%;
-}
-/*---------------------- Code inspired from snowballchallenge  ---------------------------------------*/
+/*--Code inspired from snowballchallenge--*/
 .link3main {
   display: flex;
   flex-direction: row;
@@ -192,7 +205,7 @@ body {
 /*------------------------- Link 4 ---------------------------------------*/
 .maintitle {
   position: relative;
-  background-color: darkgrey; /* Fallback color */
+  background-color: black;
   background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
   width: 420px;
   color: white;
@@ -450,6 +463,27 @@ footer a:active {color: lightgrey;}
 
 @media only screen and (max-width: 1005px) {
   /*------------LINK 1------------*/
+  #link1title {display: none;}
+  #link1subtitle {display: none;}
+
+  #link1titleR {
+    display: block;
+    top: 80px; 
+    border: 2px solid black; 
+    width: 68vw;
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #link1subtitleR {
+    display: block;
+    top: 60px; 
+    border: 2px solid black; 
+    width: 68vw;
+    font-size: 1rem;
+  }
+  em {margin: 0px 3px;}
+
   .linkmain {
     display: flex;
     flex-direction: column;
@@ -461,19 +495,36 @@ footer a:active {color: lightgrey;}
   .linktext-div p {line-height: 1.8;}
   #link1F {margin-top:-140px;}
 
-  /*------------LINK 5------------*/
-  #link5title {
-    display: none;
+  /*------------LINK 3------------*/
+  #link3title {display: none;}
+  #link3subtitle {display: none;}
+
+  #link3titleR {
+    display: block;
+    top: 80px; 
+    border: 1px solid white; 
+    width: 68vw;
+    font-size: 2.3rem;
   }
+  #link3subtitleR {
+    display: block;
+    top: 55px; 
+    border: 1px solid white; 
+    width: 68vw;
+    font-size: 1rem;
+  }
+
+  /*------------LINK 5------------*/
+  #link5title {display: none;}
+
   #link5titleR {
-    top: 285px;
+    top: 290px;
     display: block; 
-    border: 2px solid white; 
+    border: 1px solid white; 
     width: 76vw;
     font-size: 2.2rem;
   }
   #minimize {font-size: 30px;}  
-
 }
 
 @media only screen and (max-width: 1230px) {
