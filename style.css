@@ -507,12 +507,14 @@ footer a:active {color: lightgrey;}
     line-height: 2;
   }
   #form {width:350px;}
-  .submit {margin-bottom: 60px;}
+  .submit, .comment {width: 350px;}
+
   .copyright {
     position: absolute;
     bottom: 0%;
   }
   #textF {margin-bottom:55px;}
+  #rightF {padding-bottom: 60px;}
   #rightF h1 {margin-top:10px; padding-bottom:10px}
   #midF {border: none;}
 
