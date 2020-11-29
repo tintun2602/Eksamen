@@ -46,6 +46,23 @@ body {
   font-weight: medium;
 }
 
+.text-box {
+  position: relative;
+  margin: 50px 0px;
+  margin-bottom: 60px;
+  width: 75%;
+  text-align: left;
+}
+.text-box h1 {color:black; text-align:center;}
+
+.text-box div {
+  color: black;
+  line-height: 2.1;
+  margin: 10px 0;
+  padding: 8px 11px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
 
 .learnmore {
   padding-top: 2rem;
@@ -141,41 +158,35 @@ body {
   border-radius: 50%;
 }
 /*---------------------- Code inspired from snowballchallenge  ---------------------------------------*/
-
 .link3main {
   display: flex;
-  justify-content: space-between;
-  padding-right: 100px;
+  flex-direction: row;
 }
-
-.link3img2 {
-  flex-basis: 50%;
-  object-fit: cover;
-  max-width: 500px;
-  max-height: 500px;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0, 1);
-  padding: 80px;
-  border-radius: 50%;
-}
-
-.link3image {
-  display: flex;
-}
-
 .link3text-div {
-  flex-basis: 50%;
+  flex-basis: 100%;
   height: 500px;
   color: black;
-  padding: 75px;
-  line-height: 1, 5;
+  padding: 50px 100px;
+  padding-right: 0px;
+  line-height: 2;
 }
-
-.link3text-div h2 {
-  border-bottom: 1px solid black;
-}
-
+.link3text-div h2 {border-bottom: 1px solid black;}
 .link3text-div p {
   margin: 20px 0px 0px;
+  line-height: 2;
+}
+.link3image {
+  display: flex;
+  flex-direction: row;
+}
+.link3img2 {
+  position: relative;
+  object-fit: cover;
+  width: 520px;
+  height: 520px;
+  padding: 5vw 5vw;
+  border-radius: 50%;
+  margin: -0vw 4vw;
 }
 
 /*------------------------- Link 4 ---------------------------------------*/
@@ -196,24 +207,6 @@ body {
 }
 #link4titleR {display: none;}
 
-.text-box {
-  position: relative;
-  margin: 50px 0px;
-  margin-bottom: 60px;
-  width: 75%;
-  text-align: left;
-}
-.text-box h1 {color:black; text-align:center;}
-
-.text-box div {
-  color: black;
-  line-height: 2.1;
-  margin: 10px 0;
-  padding: 8px 11px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
 .contentP {
   display: flex;
   width: 100%;
@@ -225,7 +218,6 @@ body {
 .imgP3 {width:75%; padding-left:25%;}
 
 /*------------------------- Link 5 ---------------------------------------*/
-
 .link5container {
   position: relative;
   text-align: center;
@@ -277,6 +269,7 @@ footer a:active {color: lightgrey;}
 
 #link1F {margin-top:60px;}
 #link2F {margin-top:60px;}
+#link3F {margin-top:40px;}
 
 
 /* Footer Section */
@@ -421,18 +414,6 @@ footer a:active {color: lightgrey;}
   }
   .text-box p {line-height: 1.8;}
 
-  /*------------LINK 1------------*/
-  .linkmain {
-    display: flex;
-    flex-direction: column;
-  } 
-  .linktext-div {
-    padding: 30px 70px;
-    line-height: 2;
-  }
-  .linktext-div p {line-height: 1.8;}
-  #link1F {margin-top:-140px;}
-
   /*------------LINK 2------------*/
   #leftlink1 {margin-left: 40px;}
   #rightlink1 {margin-right: 40px;}
@@ -442,7 +423,7 @@ footer a:active {color: lightgrey;}
     padding: 0px 30px 35px 30px;
   }
   #toolong {font-size: 3.9vw;}
-  
+
   /*------------LINK 4------------*/
   .maintitle {
     position: relative;
@@ -456,7 +437,10 @@ footer a:active {color: lightgrey;}
   }
 
   #link4title {display: none;}
-  #link4titleR {display: block;}
+  #link4titleR {
+    top: 110px;
+    display: block;
+  }
 
   .imgP1 {width:90vw; padding-left:0%; margin-top:20px;}
   .imgP2 {width:80vw; padding-left:5%;}
@@ -465,6 +449,18 @@ footer a:active {color: lightgrey;}
 
 
 @media only screen and (max-width: 1005px) {
+  /*------------LINK 1------------*/
+  .linkmain {
+    display: flex;
+    flex-direction: column;
+  } 
+  .linktext-div {
+    padding: 30px 70px;
+    line-height: 2;
+  }
+  .linktext-div p {line-height: 1.8;}
+  #link1F {margin-top:-140px;}
+
   /*------------LINK 5------------*/
   #link5title {
     display: none;
@@ -476,7 +472,8 @@ footer a:active {color: lightgrey;}
     width: 76vw;
     font-size: 2.2rem;
   }
-  #minimize {font-size: 30px;}
+  #minimize {font-size: 30px;}  
+
 }
 
 @media only screen and (max-width: 1230px) {
@@ -494,6 +491,33 @@ footer a:active {color: lightgrey;}
     margin: 30px 40px;
     padding: 0px 30px 35px 30px;
   }
+  
+  /*------------LINK 3------------*/
+  .link3main {
+    display: flex;
+    flex-direction: column;
+  } 
+  .link3text-div {
+    padding: 30px 70px;
+    line-height: 2;
+    text-align: center;
+  }
+  .link3text-div p {
+    margin: 10px 0px 0px;
+    line-height: 1.8;
+  }
+  
+  .link3image {
+    display: flex;
+    flex-direction: column;  
+  }
+  .link3img2 {
+    width: 420px;
+    height: 420px;
+    padding: 40px 40px;
+    margin: -20px 36px 40px 36px;
+  }
+  #link3F {margin-top:-200px;}
 }
 
 
