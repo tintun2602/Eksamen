@@ -286,7 +286,7 @@ em {
 #link5title {
   display: block;
   top: 285px;
-  border: 1px solid white;
+  border: 2px solid black;
   width: 60vw;
   padding: 15px 20px;
 }
@@ -412,33 +412,11 @@ footer a:active {
   text-shadow: 1.4px 1.4px black;
   outline: none;
   position: relative;
-  top: -50px;
-
-  width: 300px;
-  background-color: #202020;
-  color: white;
-  border: 1px solid black;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.comment {
-  height: 50px;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  text-shadow: 1.4px 1.4px black;
-  outline: none;
-
-  width: 300px;
-  background-color: #202020;
-  color: white;
-  border: 1px solid black;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .submit:active {
+  outline: 1px solid white;
   border-radius: none;
-  display: none;
 }
-
 ::placeholder {
   color: white;
 }
@@ -606,7 +584,7 @@ footer a:active {
   #link5titleR {
     top: 290px;
     display: block;
-    border: 1px solid white;
+    border: 2px solid black;
     width: 76vw;
     font-size: 2.2rem;
   }
@@ -669,16 +647,12 @@ footer a:active {
   /*------------FOOTER------------*/
   footer {
     top: 200px;
-    height: 1100px;
+    height: 1108px;
     text-align: center;
     padding-top: 10vw;
     line-height: 2;
   }
   #form {
-    width: 350px;
-  }
-  .submit,
-  .comment {
     width: 350px;
   }
 
