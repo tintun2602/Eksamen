@@ -1,0 +1,718 @@
+@import "./navbar.css";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.header {
+  z-index: 999;
+}
+.container {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  object-fit: cover;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+.img1 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  border-bottom: 4px solid black;
+}
+
+.container .content {
+  position: absolute;
+  color: white;
+  font-size: 1.9rem;
+  text-shadow: 2px 2px black;
+  top: 30%;
+  left: 15%;
+  right: 15%;
+  text-align: left;
+}
+
+#link1title {
+  display: block;
+  top: 70px;
+  border: 2px solid black;
+  width: 60vw;
+  padding: 15px 20px;
+  letter-spacing: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#link1subtitle {
+  top: 65px;
+  padding: 10px 40px;
+  border: 2px solid black;
+  font-size: 24px;
+}
+#link1titleR,
+#link1subtitleR {
+  display: none;
+}
+em {
+  margin: 0px 10px;
+}
+
+.text-box {
+  position: relative;
+  margin: 50px 0px;
+  margin-bottom: 60px;
+  width: 75%;
+  text-align: left;
+}
+.text-box h1 {
+  color: black;
+  text-align: center;
+}
+
+.text-box div {
+  color: black;
+  line-height: 2.1;
+  margin: 10px 0;
+  padding: 8px 11px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.learnmore {
+  padding-top: 2rem;
+  text-decoration: underline;
+}
+
+/*--Code inspired from snowballchallenge--*/
+.linkmain {
+  display: inline-flex;
+}
+.linktext-div {
+  flex-basis: 100%;
+  height: 500px;
+  color: black;
+  padding: 70px 100px;
+  padding-right: 0px;
+  line-height: 2;
+}
+.linktext-div h2 {
+  border-bottom: 1px solid black;
+}
+.linktext-div p {
+  margin: 20px 0px 0px;
+  line-height: 2.1;
+}
+.linkimg2 {
+  flex-basis: 50%;
+  object-fit: cover;
+  width: 75%;
+  height: 500px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  margin: 40px 0px;
+}
+/*-------------------------------------------------------------*/
+.content2 {
+  display: flex;
+  width: 100%;
+  max-height: 50%;
+  padding: 0px 80px 80px 80px;
+}
+
+.image {
+  height: 20%;
+  width: 20%;
+}
+
+.image-big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+/*------------------------- Link 2 ---------------------------------------*/
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+#leftlink2 {
+  margin-left: 90px;
+}
+#rightlink2 {
+  margin-right: 90px;
+}
+
+.box {
+  margin: 20px 30px;
+  border: 1px solid black;
+  line-height: 1.8;
+  padding: 0px 35px 40px 35px;
+  background-color: #f8f8f8;
+}
+.box h2 {
+  font-weight: normal;
+  padding: 1.5rem 0px;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+/*------------------------- Link 3 ---------------------------------------*/
+#link3title {
+  display: block;
+  top: 55px;
+  border: 1px solid white;
+  width: 60vw;
+  padding: 15px 20px;
+}
+#link3subtitle {
+  top: 50px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  font-size: 24px;
+}
+#link3titleR,
+#link3subtitleR {
+  display: none;
+}
+
+/*--Code inspired from snowballchallenge--*/
+.link3main {
+  display: flex;
+  flex-direction: row;
+}
+.link3text-div {
+  flex-basis: 100%;
+  height: 500px;
+  color: black;
+  padding: 50px 100px;
+  padding-right: 0px;
+  line-height: 2;
+}
+.link3text-div h2 {
+  border-bottom: 1px solid black;
+}
+.link3text-div p {
+  margin: 20px 0px 0px;
+  line-height: 2;
+}
+.link3image {
+  display: flex;
+  flex-direction: row;
+}
+.link3img2 {
+  position: relative;
+  object-fit: cover;
+  width: 520px;
+  height: 520px;
+  padding: 5vw 5vw;
+  border-radius: 50%;
+  margin: -0vw 4vw;
+}
+
+/*------------------------- Link 4 ---------------------------------------*/
+.maintitle {
+  position: relative;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+  width: 420px;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  padding: 10px 0px;
+}
+#link4title {
+  display: block;
+  margin-top: 5px;
+  border: 2px solid black;
+}
+#link4titleR {
+  display: none;
+}
+
+.contentP {
+  display: flex;
+  width: 100%;
+  max-height: 50%;
+  padding: 0px 0px 60px 20px;
+}
+.imgP1 {
+  width: 75%;
+  padding-left: 25%;
+}
+.imgP2 {
+  width: 75%;
+  padding-left: 25%;
+}
+.imgP3 {
+  width: 75%;
+  padding-left: 25%;
+}
+
+/*------------------------- Link 5 ---------------------------------------*/
+.link5container {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  object-fit: cover;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.link5img1 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  border-bottom: 4px solid black;
+}
+
+.link5container .content {
+  font-size: 1.9rem;
+}
+#link5title {
+  display: block;
+  top: 285px;
+  border: 1px solid white;
+  width: 60vw;
+  padding: 15px 20px;
+}
+#link5titleR {
+  display: none;
+}
+
+/*------------------------- Footer ---------------------------------------*/
+footer {
+  background-color: #383838;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 470px;
+  padding: 28px 0vw;
+  border-top: 4px solid black;
+  line-height: 2.3;
+}
+footer h1 {
+  font-size: 4.5vh;
+  margin-top: -15px;
+}
+footer a {
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+}
+footer a:active {
+  color: lightgrey;
+}
+
+#link1F {
+  margin-top: 60px;
+}
+#link2F {
+  margin-top: 60px;
+}
+#link3F {
+  margin-top: 40px;
+}
+
+/* Footer Section */
+#leftF {
+  width: 32%;
+  float: left;
+  text-align: left;
+}
+#midF {
+  position: relative;
+  margin-top: -28px;
+  float: left;
+  width: 35%;
+  padding: 30px 0px;
+  padding-bottom: 300px;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#rightF {
+  width: 32%;
+  padding-left: 0.8vw;
+  float: left;
+  text-align: center;
+}
+
+/* Footer Content: Contact Info */
+#textF {
+  position: relative;
+  padding: 0px 4.5vw;
+}
+#flagicon {
+  position: relative;
+  top: 7.3px;
+  margin-left: 4px;
+}
+
+/* Footer Content: Social Media */
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.socialmedia:hover {
+  cursor: pointer;
+  color: none;
+}
+.socialmedia a:active {
+  color: white;
+}
+
+/* Footer Content: Contact Us */
+#form {
+  width: 300px;
+  background-color: #202020;
+  color: white;
+  border: 1px solid black;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.input {
+  position: relative;
+  height: 45px;
+  font-size: 17px;
+  padding: 0px 18px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.textarea {
+  height: 100px;
+  font-size: 17px;
+  padding: 10px 18px;
+  margin-bottom: -1px;
+  resize: none;
+  outline: none;
+}
+
+.submit {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-shadow: 1.4px 1.4px black;
+  outline: none;
+  position: relative;
+  top: -50px;
+
+  width: 300px;
+  background-color: #202020;
+  color: white;
+  border: 1px solid black;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.comment {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-shadow: 1.4px 1.4px black;
+  outline: none;
+
+  width: 300px;
+  background-color: #202020;
+  color: white;
+  border: 1px solid black;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.submit:active {
+  border-radius: none;
+  display: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+/* Footer Copyright */
+.copyright {
+  font-size: 0.9rem;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  text-align: center;
+  color: white;
+  background-color: #181818;
+  margin-bottom: auto;
+  width: 100%;
+  padding: 13px 0;
+  border-top: 3px solid black;
+}
+
+/*----------------------RESPONSIVE------------------------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+  .container .content {
+    text-align: center;
+  }
+  #align {
+    text-align: center;
+  }
+  .text-box {
+    margin: 50px 0px;
+    margin-bottom: 55px;
+    width: 86%;
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .text-box p {
+    line-height: 1.8;
+  }
+
+  /*------------LINK 2------------*/
+  #leftlink1 {
+    margin-left: 40px;
+  }
+  #rightlink1 {
+    margin-right: 40px;
+  }
+
+  .box {
+    margin: 30px 40px;
+    padding: 0px 30px 35px 30px;
+  }
+  #toolong {
+    font-size: 3.9vw;
+  }
+
+  /*------------LINK 4------------*/
+  .maintitle {
+    position: relative;
+    width: 340px;
+    color: white;
+    border: 3px solid black;
+    text-align: center;
+    z-index: 2;
+    padding: 10px 20px;
+    font-size: 2.3rem;
+  }
+
+  #link4title {
+    display: none;
+  }
+  #link4titleR {
+    top: 110px;
+    display: block;
+  }
+
+  .imgP1 {
+    width: 90vw;
+    padding-left: 0%;
+    margin-top: 20px;
+  }
+  .imgP2 {
+    width: 80vw;
+    padding-left: 5%;
+  }
+  .imgP3 {
+    width: 90vw;
+    padding-left: 0%;
+    margin-bottom: -210px;
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+  /*------------LINK 1------------*/
+  #link1title {
+    display: none;
+  }
+  #link1subtitle {
+    display: none;
+  }
+
+  #link1titleR {
+    display: block;
+    top: 80px;
+    border: 2px solid black;
+    width: 68vw;
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #link1subtitleR {
+    display: block;
+    top: 60px;
+    border: 2px solid black;
+    width: 68vw;
+    font-size: 1rem;
+  }
+  em {
+    margin: 0px 3px;
+  }
+
+  .linkmain {
+    display: flex;
+    flex-direction: column;
+  }
+  .linktext-div {
+    padding: 30px 70px;
+    line-height: 2;
+  }
+  .linktext-div p {
+    line-height: 1.8;
+  }
+  #link1F {
+    margin-top: -140px;
+  }
+
+  /*------------LINK 3------------*/
+  #link3title {
+    display: none;
+  }
+  #link3subtitle {
+    display: none;
+  }
+
+  #link3titleR {
+    display: block;
+    top: 80px;
+    border: 1px solid white;
+    width: 68vw;
+    font-size: 2.3rem;
+  }
+  #link3subtitleR {
+    display: block;
+    top: 55px;
+    border: 1px solid white;
+    width: 68vw;
+    font-size: 1rem;
+  }
+
+  /*------------LINK 5------------*/
+  #link5title {
+    display: none;
+  }
+
+  #link5titleR {
+    top: 290px;
+    display: block;
+    border: 1px solid white;
+    width: 76vw;
+    font-size: 2.2rem;
+  }
+  #minimize {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  /*------------LINK 2------------*/
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #leftlink2 {
+    margin-left: 40px;
+  }
+  #rightlink2 {
+    margin-right: 40px;
+  }
+
+  .box {
+    margin: 30px 40px;
+    padding: 0px 30px 35px 30px;
+  }
+
+  /*------------LINK 3------------*/
+  .link3main {
+    display: flex;
+    flex-direction: column;
+  }
+  .link3text-div {
+    padding: 30px 70px;
+    line-height: 2;
+    text-align: center;
+  }
+  .link3text-div p {
+    margin: 10px 0px 0px;
+    line-height: 1.8;
+  }
+
+  .link3image {
+    display: flex;
+    flex-direction: column;
+  }
+  .link3img2 {
+    width: 420px;
+    height: 420px;
+    padding: 40px 40px;
+    margin: -20px 36px 40px 36px;
+  }
+  #link3F {
+    margin-top: -200px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  /*------------FOOTER------------*/
+  footer {
+    top: 200px;
+    height: 1310px;
+    text-align: center;
+    padding-top: 10vw;
+    line-height: 2;
+  }
+  #form {
+    width: 350px;
+  }
+  .submit,
+  .comment {
+    width: 350px;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0%;
+  }
+  #textF {
+    margin-bottom: 55px;
+  }
+  #rightF {
+    padding-bottom: 60px;
+  }
+  #rightF h1 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  #midF {
+    border: none;
+  }
+
+  #leftF,
+  #midF,
+  #rightF {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+  }
+  #sectionF,
+  #leftF,
+  #midF,
+  #rightF {
+    width: 100%;
+  }
+
+  #link2F {
+    margin-top: -160px;
+  }
+}
