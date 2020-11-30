@@ -171,11 +171,11 @@ strong {
     opacity: 1;
   }
 
-  #btn1 {background-color: #E0E0E0;}
+  #btn1 {background-color: #E8E8E8;}
   #btn2 {background-color: #C8C8C8;}
   #btn3 {background-color: #B0B0B0;}
   #btn4 {background-color: #989898;}
-  #btn5 {background-color: #787878;}
+  #btn5 {background-color: #888888;}
   #btn1:hover {background-color: #F0F0F0;}
   #btn2:hover {background-color: #DCDCDC;}
   #btn3:hover {background-color: #B8B8B8;}
