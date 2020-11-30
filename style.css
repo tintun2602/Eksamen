@@ -669,7 +669,7 @@ footer a:active {
   /*------------FOOTER------------*/
   footer {
     top: 200px;
-    height: 1310px;
+    height: 1345px;
     text-align: center;
     padding-top: 10vw;
     line-height: 2;
@@ -698,6 +698,7 @@ footer a:active {
   }
   #midF {
     border: none;
+    padding-bottom: 55px;
   }
 
   #leftF,
