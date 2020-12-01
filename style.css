@@ -379,7 +379,7 @@ footer a:active {
 }
 
 /* Footer Content: Contact Us */
-#form {
+#formF {
   width: 300px;
   background-color: #202020;
   color: white;
@@ -652,7 +652,7 @@ footer a:active {
     padding-top: 10vw;
     line-height: 2;
   }
-  #form {
+  #formF {
     width: 350px;
   }
 
