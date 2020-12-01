@@ -153,7 +153,7 @@ em {
 }
 
 .box {
-  width: 700px;
+  width: 600px;
   margin: 20px 20px;
   border: 1px solid black;
   line-height: 1.8;
@@ -471,12 +471,6 @@ footer a:active {
   #rightlink1 {
     margin-right: 40px;
   }
-
-  .box {
-    width: 400px;
-    margin: 30px 40px;
-    padding: 0px 30px 35px 30px;
-  }
   #toolong {
     font-size: 3.9vw;
   }
@@ -583,7 +577,7 @@ footer a:active {
     width: 68vw;
     font-size: 1rem;
   }
-
+  
   /*------------LINK 5------------*/
   #link5title {
     display: none;
@@ -608,20 +602,19 @@ footer a:active {
     flex-direction: column;
     justify-content: center;
   }
-
   #leftlink2 {
     margin-left: 40px;
   }
   #rightlink2 {
     margin-right: 40px;
   }
-
   .box {
+    width: auto;
     margin: 30px 40px;
     padding: 0px 30px 35px 30px;
   }
 
-  /*------------LINK 3------------*/
+  /*------------LINK 3------------*/ 
   .link3main {
     display: flex;
     flex-direction: column;
@@ -641,10 +634,11 @@ footer a:active {
     flex-direction: column;
   }
   .link3img2 {
-    width: 420px;
+    width: auto;
     height: 420px;
     padding: 40px 40px;
     margin: -20px 36px 40px 36px;
+    border-radius: 0%;
   }
   #link3F {
     margin-top: -200px;
